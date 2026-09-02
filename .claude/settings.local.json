@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3 *)",
+      "Bash(./venv/bin/python -c ' *)",
+      "Bash(./venv/bin/python debug_reply.py)",
+      "Bash(./venv/bin/python -c \"from im.handler import IMHandler; print\\('OK'\\)\")",
+      "Bash(./venv/bin/python -c \"from im.browser import IMBrowser; print\\('OK'\\)\")"
+    ]
+  }
+}
